@@ -1,7 +1,7 @@
 
 # zhenxun_plugins_uma_mn
 该系列插件由[十年（shinianj)](https://github.com/shinianj)适配
-原作者及Hoshino插件仓库[azmiao](https://github.com/shinianj/uma_plugin)
+原作者及Hoshino插件仓库[azmiao](https://github.com/azmiao/uma_plugin)
 
 ### 使用前建议使用安装所需的库
 
