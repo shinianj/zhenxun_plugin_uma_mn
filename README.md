@@ -3,6 +3,10 @@
 该系列插件由[十年（shinianj)](https://github.com/shinianj)适配
 原作者及Hoshino插件仓库[azmiao](https://github.com/shinianj/uma_plugin)
 
+###使用前建议使用安装所需的库
+  pip install -r requirements.txt
+
+
 若遇见bug，请尽快带着报错截图和触发情况发送到[issue](https://github.com/shinianj/zhenxun_plugin_uma_mn/issues)(右上角绿色的按钮进行提交)
 
 **注：这是真寻bot的拓展序列插件，请在使用时确保自己使用的是最新版的真寻以防止出现莫名的bug导致各位都头大**
