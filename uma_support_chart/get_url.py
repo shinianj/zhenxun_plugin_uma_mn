@@ -77,7 +77,8 @@ async def get_image(img_dict, sup_type, chart_url, ver_body):
     # 真实的页面
     res = httpx.get(chart_url, timeout=10)
     soup = BeautifulSoup(res.text, 'lxml')
-    name_pattern = re.compile(f'{sup_type}[0-9]\.[0-9][0-9]\.[0-9]\.[0-9]\.png')
+    #name_pattern = re.compile(f'{sup_type}[0-9]\.[0-9][0-9]\.[0-9]\.[0-9]\.png')
+    name_pattern = re.compile(f'(巅峰杯)?{sup_type}[0-9]\.[0-9][0-9]\.[0-9]榜\.png')
     img_soup_list = soup.find_all('img', {"decoding": "async"})
     for img_soup in img_soup_list:
         file_name = re.match(name_pattern, img_soup.get('alt'))
