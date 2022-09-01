@@ -1,7 +1,7 @@
 import os
 import json
 
-from hoshino import logger
+from services import logger
 
 current_dir = os.path.join(os.path.dirname(__file__), 'sup_config.json')
 current_dir_tw = os.path.join(os.path.dirname(__file__), 'sup_config_tw.json')
